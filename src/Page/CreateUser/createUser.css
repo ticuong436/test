@@ -1,0 +1,44 @@
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.newUserItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.newUserItem>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(155, 155, 155);
+}
+.newUserItem>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.newSubmit  {
+    width: 80;
+    height: 40px;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 35px;
+    
+}
+.newUserGender{
+    display: flex;
+    align-items: center;
+
+}
+.newUserGender>input , .newUserGender>label{
+    margin-left: inherit;
+    margin-right: 5px;
+}

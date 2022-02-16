@@ -1,0 +1,33 @@
+.userWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.buttonCreate{
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 5px;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.userListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.userListDelete{
+    color: red;
+    cursor: pointer;
+}
+.createUser a{
+    text-decoration: none;
+}

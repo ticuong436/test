@@ -1,0 +1,70 @@
+.userSignin{
+    display: flex;
+    justify-content: space-between;
+}
+.signup{
+    padding-top: 10px;
+    padding-left: 20px;
+    position: relative;
+    padding-bottom: 80px;
+    margin-right: 100px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0 ,0 ,0.75);
+    box-shadow:0px 0px 15px -10px rgba(0, 0 ,0 ,0.75);
+}
+.signin{
+    height: 100%;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 80px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0 ,0 ,0.75);
+    box-shadow:0px 0px 15px -10px rgba(0, 0 ,0 ,0.75);
+}
+.signinItem, .signupItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.signinItem label{
+    margin-bottom: 20px;
+}
+.signinItem>label , .signupItem>label{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(155, 155, 155);
+}
+.signinItem>input, .signupItem>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.btnSignin{
+    position: absolute;
+    right: 20px !important;
+    padding-right: 20px;
+}
+.btnSignin, .btnSignup{
+    
+    bottom: 20px;
+    width: 80;
+    height: 40px;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btnSignup{
+    position: absolute;
+    right: 20px !important;
+    
+}
+.signinForm>span ,.signupForm>span{
+    font-size: 24px;
+}
